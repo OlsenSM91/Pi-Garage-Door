@@ -202,6 +202,24 @@ sudo systemctl status garage_door_app
    - Check firewall settings
    - Verify network connectivity
 
+## Technologies & Concepts Learned
+
+This project integrates several modern technologies and programming concepts:
+
+- **FastAPI**: A modern, fast web framework for building APIs with Python, featuring automatic OpenAPI documentation and type hints
+- **GPIO Programming**: Direct hardware control using RPi.GPIO for interfacing with physical components (relay and magnetic sensor)
+- **Async Programming**: Using Python's asyncio for non-blocking operations in door state monitoring and notifications
+- **Webhooks**: Integration with Discord's webhook API for automated notifications
+- **Environment Variables**: Secure configuration management using python-dotenv
+- **Systemd Services**: Linux service management for running the application as a daemon
+- **Web Development**: 
+  - Real-time status updates using JavaScript fetch API
+  - Responsive CSS design
+  - Session-based authentication
+- **Hardware Integration**: 
+  - Relay control for garage door activation
+  - Magnetic sensor reading for door state detection
+
 ## Security Recommendations
 1. Change default credentials immediately
 2. Use a strong SECRET_KEY
